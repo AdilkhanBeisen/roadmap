@@ -2,16 +2,44 @@
 <html>
 <head>
 <title>Page Title</title>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: purple;
+    }
+    .box{
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+    }
+    .container{
+        max-width: 600px;
+        margin: 0 auto;
+        color: aliceblue;
+    }
+    .link{
+        display: inline-block;
+        margin: 15px;
+        color: aliceblue;
+    }
+    .field{
+        padding: 8px;
+        border-radius: 5px;
+        background-color: blue;
+        border:none;
+    }
+</style>
 </head>
 <body>
+    <div class="container">
 <h1>Adilkhan</h1>
 
-<img src="https://i.pinimg.com/736x/44/50/11/445011b13460c08e653481cfadcb3d61.jpg" alt="me" width="250">
+<img class="box" src="https://i.pinimg.com/736x/44/50/11/445011b13460c08e653481cfadcb3d61.jpg" alt="me" >
 
 <h2>Social media</h2>
-<a href="https://github.com/AdilkhanBeisen">Github</a>
-<p></p>
-<a href="https://www.instagram.com/adilh.anb">Instagram</a>
+<a class="link"   href="https://github.com/AdilkhanBeisen">Github</a>
+
+<a class="link" href="https://www.instagram.com/adilh.anb">Instagram</a>
 
 <h3>My hobby and what I like</h3>
 <ul>
@@ -21,10 +49,10 @@
 </ul>
 
 <form>
-<input type="text" placeholder="Your name">
-<input type="email" placeholder="abcdfg@____.com">
-<input type="submit" value="Send">
+<input class="field" type="text" placeholder="Your name">
+<input class="field" type="email" placeholder="abcdfg@____.com">
+<input class="field"  type="submit" value="Send">
 </form>
-
+</div>
 </body>
 </html>
